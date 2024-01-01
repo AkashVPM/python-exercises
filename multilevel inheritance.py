@@ -1,15 +1,15 @@
-class human:
+class Human:
       def eat(self):
             print (" I can eat")
       def work (self ):
             print (" I cxan work")
-class man(human):
+class Man(human):
       def sleep (self):
             print (" i can sleep")
-class boy (man):
+class Boy (man):
       def work (self):
             super().work()
             print (" I can code ")
 
-boy_1 = boy()
+boy_1 = Boy()
 boy_1.work()
