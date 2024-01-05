@@ -1,0 +1,7 @@
+File_1 = open("file_1.txt","r+")
+print(File_1.tell())
+data = File_1.read()
+print(data)
+File_1.write("Hello everyone")
+print(File_1.tell())
+print(File_1.read())
