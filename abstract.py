@@ -1,9 +1,13 @@
 from abc import ABC,abstractmethod
-def vechile(ABC):
-      def __init__ (self,n):
+class vehicle(ABC):
+      def __init__ (self,n,color):
             self.no_of_wheels = n
       @abstractmethod
-      def start():
+      def start(self):
             pass
-      def display():
+      def display(self):
             print("I call from the vechicle")
+
+# veh = vehicle(4)
+# veh.display()
+
